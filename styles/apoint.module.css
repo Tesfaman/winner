@@ -1,0 +1,69 @@
+.appcontainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: absolute;
+  top: 200px;
+  right: 0px;
+}
+.appincont {
+  width: 300px;
+  height: 400px;
+  background: #e7e5e5ee;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: 2px 2px 15px black;
+  padding-top: 20px;
+  position: relative;
+}
+
+.appincont h2 {
+  padding-top: 50px;
+}
+
+.appincont h3 {
+  position: absolute;
+  top: -10px;
+  right: 20px;
+  text-shadow: 2px 2px 5px black;
+  cursor: pointer;
+}
+
+.contentt {
+  margin-top: 30px;
+}
+
+.appincont h2 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.formcss {
+  display: block;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background: none;
+  border: 1px solid white;
+  margin: 11px auto;
+  color: #fff;
+  font-size: 12px;
+}
+
+.sbtn {
+  position: absolute;
+  left: 90px;
+  color: #fff;
+  text-shadow: 2px 2px 15px black;
+  cursor: pointer;
+  margin: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .appcontainer {
+    width: 100%;
+    top: -200px;
+  }
+}
